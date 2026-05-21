@@ -13,7 +13,7 @@ def about():
     print("This is print statement by saipavan")
     return "This is the about page."
 
-@app.route("/newendpoint")
+@app.route("/newendpoint")  
 def newendpoint():
     return "success"
 
